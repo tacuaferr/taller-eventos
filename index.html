@@ -18,6 +18,7 @@
 <script>
     function saludar(){
         alert('Hola');
+        event.stopPropagation(); // evita que se propague el eventListener a los elementos padre
     }   
 </script>
 </html>
